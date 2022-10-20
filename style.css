@@ -1,0 +1,239 @@
+@media screen and (max-width: 600px){
+body{
+	background-color:hsl(216, 12%, 8%);
+	display: grid;
+	place-items: center;
+}
+.img{
+	background-color:hsl(213, 19%, 25%);
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin: 20px;
+}
+.small-img{
+    margin: 12px;
+	width: 15px;
+	height: 15px;
+}
+.container{
+	background-color:hsl(213, 19%, 18%);
+	width: 90%;
+	height: 70%;
+	margin-top: 200px;
+	border-radius: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	visibility: visible;
+}
+.title{
+	color: white;
+	font-family: 'overpass', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	margin:20px;
+}
+.first{
+	color: hsl(217, 12%, 63%);
+	font-size: 15px;
+	font-family: 'overpass', sans-serif;
+	margin: 20px;
+}
+.number{
+	display: inline-block;
+	background-color:hsl(213, 19%, 25%);
+	color:hsl(217, 12%, 63%);
+	font-size: 15px;
+	margin: 13px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	padding: 5px;
+}
+button{
+	font-family: 'overpass', sans-serif;
+	background-color:hsl(25, 97%, 53%) ;
+	color: white;
+	width: 90%;
+	height: 50px;
+	font-size: 15px;
+	border: none;
+	border-radius: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+.btn{
+	letter-spacing: 2px;
+}
+.second-container{
+	background-color:hsl(213, 19%, 18%);
+	width: 90%;
+	height: 350px;
+	margin-top: 200px;
+	border-radius: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	display: none;
+}
+.big-img{
+	margin-top: 20px;
+	margin-left: 70px; 	
+}
+.thank{
+	color: white;
+	font-family: 'overpass', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	margin:20px;
+	text-align: center;
+}
+.selection{
+	color:hsl(25, 97%, 53%) ;
+	text-align: center;
+	font-family: 'overpass', sans-serif;
+	font-weight: 400;
+	background-color:hsl(213, 19%, 25%); 
+	margin-left: 60px;
+	margin-right: 60px;
+	padding: 10px;
+	border-radius:20px;
+}
+.message{
+	text-align: center;
+	color:hsl(217, 12%, 63%);
+	font-size:16px;
+	font-family: 'overpass', sans-serif;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 40px;
+}
+}
+@media screen and (min-width:600px){
+body{
+	background-color:hsl(216, 12%, 8%);
+	display: grid;
+	place-items: center;
+}
+.img{
+	background-color:hsl(213, 19%, 25%);
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin: 20px;
+	margin-top: 20px;
+}
+.small-img{
+    margin: 12px;
+	width: 15px;
+	height: 15px;
+}
+.container{
+	background-color:hsl(213, 19%, 18%);
+	width: 360px;
+	height: 70%;
+	margin-top: 200px;
+	border-radius: 10px;
+	margin-left: 200px;
+	margin-right: 200px;
+	visibility: visible;
+}
+.title{
+	color: white;
+	font-family: 'overpass', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	margin:20px;
+}
+.first{
+	color: hsl(217, 12%, 63%);
+	font-size: 15px;
+	font-family: 'overpass', sans-serif;
+	margin: 20px;
+}
+.number{
+	display: inline-block;
+	background-color:hsl(213, 19%, 25%);
+	color:hsl(217, 12%, 63%);
+	font-size: 15px;
+	margin: 16px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	padding: 5px;
+}
+button{
+	font-family: 'overpass', sans-serif;
+	background-color:hsl(25, 97%, 53%);
+	color: white;
+	width: 90%;
+	height: 50px;
+	font-size: 15px;
+	border: none;
+	border-radius: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+.btn{
+	letter-spacing: 2px;
+}
+.btn:hover{
+	background-color: white;
+	color:hsl(25, 97%, 53%);
+	cursor: pointer;
+}
+.number:hover{
+	background-color:hsl(25, 97%, 53%);
+	cursor: pointer;
+	color: white;
+}
+.selected{
+	color:hsl(25, 97%, 53%);
+}
+.second-container{
+	background-color:hsl(213, 19%, 18%);
+	width: 360px;
+	height: 380px;
+	margin-top: 200px;
+	border-radius: 10px;
+	margin-left: 200px;
+	margin-right: 200px;
+	display: none;
+}
+.big-img{
+	margin-top: 20px;
+	margin-left: 70px;
+}
+.thank{
+	color: white;
+	font-family: 'overpass', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	margin:20px;
+	text-align: center;
+	margin-top: 50px;
+}
+.selection{
+	color:hsl(25, 97%, 53%) ;
+	text-align: center;
+	font-family: 'overpass', sans-serif;
+	font-weight: 400;
+	background-color:hsl(213, 19%, 25%); 
+	margin-left: 60px;
+	margin-right: 60px;
+	padding: 10px;
+	border-radius:20px;
+}
+.message{
+	text-align: center;
+	color:hsl(217, 12%, 63%);
+	font-size:16px;
+	font-family: 'overpass', sans-serif;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 40px;
+}
+}
